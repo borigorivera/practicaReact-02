@@ -1,0 +1,21 @@
+.wrapper {
+	max-width: 70rem;
+
+	margin: 0 auto;
+	padding-bottom: 15rem;
+
+	padding-top: 3.2rem;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.defaultContainer {
+	display: flex;
+	max-width: 120rem;
+	gap: 7rem;
+	margin-bottom: 3rem;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 2rem 3rem;
+	border-radius: 0.5rem;
+	background-color: white;
+}

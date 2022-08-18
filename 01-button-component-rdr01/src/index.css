@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400&display=swap");
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	background-color: aliceblue;
+	color: #222;
+}
+
+p {
+	max-width: 40em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;
+}
+
+.img {
+	max-width: 100%;
+	display: block;
+}
+
+.img-cover {
+	object-fit: cover;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.btn {
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: bold;
+
+	padding: 1em 1.25em;
+	color: var(--button-color);
+	border: transparent;
+	background-color: var(--button-background);
+
+	border-radius: 100vh;
+	box-shadow: var(--shadow);
+	transition: background-color var(--transition);
+
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+	filter: brightness(1.1);
+
+	box-shadow: var(--shadow-md);
+}
+
+.btn--secondary {
+	padding: 0.2em 1.25em;
+	color: var(--button-color--secondary);
+	background-color: var(--button-background--secondary);
+	border: 1.5px solid var(--button-border--secondary);
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+	background-color: var(--button-color--secondary);
+	color: var(--button-background--secondary);
+	border: 1.5px solid var(--button-border--secondary);
+}
+
+.btn-block {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	section,
+	nav,
+	header,
+	main {
+		padding: 0 calc((100% - var(--max-width)) / 2);
+	}
+}

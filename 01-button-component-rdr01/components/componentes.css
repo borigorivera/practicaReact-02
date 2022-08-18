@@ -1,0 +1,45 @@
+/* ////////////////////////////////////////////////////////////////////////// */
+/*                                  CHECKBOX                                  */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	height: 20px;
+	width: 40px;
+	border-radius: 100vh;
+	background-color: var(--light-grayish-blue2);
+	transition: all 0.1s ease-in;
+	position: relative;
+}
+input:checked[type="checkbox"] {
+	background-color: var(--strong-cyan);
+}
+input[type="checkbox"]:before {
+	content: "";
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: white;
+	border-radius: 100vh;
+	top: 50%;
+	transform: translatey(-50%);
+	left: 4px;
+	transition: all 0.1s ease-in;
+}
+
+input:checked[type="checkbox"]:before {
+	left: 20px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/*                                   SOCIALS                                  */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+.footer__socials {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.2em;
+	margin-bottom: 1.5em;
+}
