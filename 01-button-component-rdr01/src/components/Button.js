@@ -12,7 +12,6 @@ const Button = ({
 	color,
 	size,
 }) => {
-	console.log(`esto ${disableShadow}`);
 	return (
 		<div className={styles.container}>
 			<label className={styles.label} htmlFor="">
