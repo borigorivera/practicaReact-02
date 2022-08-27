@@ -1,0 +1,17 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #333333;
+	margin-bottom: 2.4rem;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 1.8rem;
+}
+
+.quantity {
+	font-weight: 500;
+	font-size: 1.4rem;
+}

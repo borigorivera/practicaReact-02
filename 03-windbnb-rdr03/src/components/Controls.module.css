@@ -1,0 +1,19 @@
+.wrapper {
+	background: #ffffff;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 16px;
+	display: flex;
+
+	max-width: 30rem;
+	margin: 0 auto;
+}
+
+.place,
+.guests,
+.button {
+	border: none;
+	padding: 1rem 1rem;
+}
+
+.place {
+}
